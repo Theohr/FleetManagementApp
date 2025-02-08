@@ -27,6 +27,14 @@
     
   ![image](https://github.com/user-attachments/assets/695da158-3b7f-4e3d-a571-bbb86070b8ec)
 
+## Functionality
+  1. As a user I want to have the ability to create Vessels. (Done)
+  2. As a user I want to have the ability to create containers and load them to the vessels. (Done)
+  3. As a user I want to restrict the load of containers each vessel will have (Done)
+  4. As a user I want to be able to make load transfers between the vessels. (Done)
+  5. As a user I want to assign the vessels into different fleets. (Done)
+  Bonus.  Use Microsoft SQL Server to save the state of the platform. (Done)
+
 ## How to Build and Run the Project
   1. Clone the repository to your preferred directory
   2. Open the solution in Visual Studio 2022
