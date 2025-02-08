@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\FleetManagementServiceCore.csproj": {}
+    "C:\\Git\\FleetManagementApp\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\FleetManagementServiceCore.csproj": {}
   },
   "projects": {
-    "C:\\Git\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\FleetManagementServiceCore.csproj": {
+    "C:\\Git\\FleetManagementApp\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\FleetManagementServiceCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\FleetManagementServiceCore.csproj",
+        "projectUniqueName": "C:\\Git\\FleetManagementApp\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\FleetManagementServiceCore.csproj",
         "projectName": "FleetManagementServiceCore",
-        "projectPath": "C:\\Git\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\FleetManagementServiceCore.csproj",
+        "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\FleetManagementServiceCore.csproj",
         "packagesPath": "C:\\Users\\T.Herodotou\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\obj\\",
+        "outputPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,14 +34,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Git\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\FleetManagementServiceCore.Service.csproj": {
-                "projectPath": "C:\\Git\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\FleetManagementServiceCore.Service.csproj"
+              "C:\\Git\\FleetManagementApp\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\FleetManagementServiceCore.Service.csproj": {
+                "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\FleetManagementServiceCore.Service.csproj"
               },
-              "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj": {
-                "projectPath": "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj"
+              "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj": {
+                "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj"
               },
-              "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj": {
-                "projectPath": "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj"
+              "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj": {
+                "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "C:\\Git\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\FleetManagementServiceCore.Service.csproj": {
+    "C:\\Git\\FleetManagementApp\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\FleetManagementServiceCore.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\FleetManagementServiceCore.Service.csproj",
+        "projectUniqueName": "C:\\Git\\FleetManagementApp\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\FleetManagementServiceCore.Service.csproj",
         "projectName": "FleetManagementServiceCore.Service",
-        "projectPath": "C:\\Git\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\FleetManagementServiceCore.Service.csproj",
+        "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\FleetManagementServiceCore.Service.csproj",
         "packagesPath": "C:\\Users\\T.Herodotou\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\obj\\",
+        "outputPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\3. Service Layer\\FleetManagementServiceCore.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -137,11 +137,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj": {
-                "projectPath": "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj"
+              "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj": {
+                "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj"
               },
-              "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj": {
-                "projectPath": "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj"
+              "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj": {
+                "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj"
               }
             }
           }
@@ -180,14 +180,14 @@
         }
       }
     },
-    "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj": {
+    "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj",
+        "projectUniqueName": "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj",
         "projectName": "FleetManagementServiceCore.BusinessModels",
-        "projectPath": "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj",
+        "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj",
         "packagesPath": "C:\\Users\\T.Herodotou\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\obj\\",
+        "outputPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -246,14 +246,14 @@
         }
       }
     },
-    "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj": {
+    "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj",
         "projectName": "FleetManagementServiceCore.Infrastructure",
-        "projectPath": "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj",
+        "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\T.Herodotou\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\obj\\",
+        "outputPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -276,8 +276,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj": {
-                "projectPath": "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj"
+              "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj": {
+                "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj"
               }
             }
           }

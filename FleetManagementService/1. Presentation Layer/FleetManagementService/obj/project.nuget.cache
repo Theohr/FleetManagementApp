@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zmum9MlZWKM=",
+  "dgSpecHash": "hj76/Yp9p6U=",
   "success": true,
-  "projectFilePath": "C:\\Git\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\FleetManagementServiceCore.csproj",
+  "projectFilePath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\1. Presentation Layer\\FleetManagementService\\FleetManagementServiceCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T.Herodotou\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\T.Herodotou\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

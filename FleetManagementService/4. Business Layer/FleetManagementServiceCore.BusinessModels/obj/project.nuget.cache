@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rcwMBkScvwc=",
+  "dgSpecHash": "B0cOYU1mKeE=",
   "success": true,
-  "projectFilePath": "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj",
+  "projectFilePath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -4754,11 +4754,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj",
       "projectName": "FleetManagementServiceCore.Infrastructure",
-      "projectPath": "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj",
+      "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\FleetManagementServiceCore.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\T.Herodotou\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\obj\\",
+      "outputPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\5. Data Layer\\FleetManagementServiceCore.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4781,8 +4781,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj": {
-              "projectPath": "C:\\Git\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj"
+            "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj": {
+              "projectPath": "C:\\Git\\FleetManagementApp\\FleetManagementService\\4. Business Layer\\FleetManagementServiceCore.BusinessModels\\FleetManagementServiceCore.BusinessModels.csproj"
             }
           }
         }

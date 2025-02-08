@@ -17,99 +17,99 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FleetManagementServiceCore
 build_property.RootNamespace = FleetManagementServiceCore
-build_property.ProjectDir = C:\Git\FleetManagementService\1. Presentation Layer\FleetManagementService\
+build_property.ProjectDir = C:\Git\FleetManagementApp\FleetManagementService\1. Presentation Layer\FleetManagementService\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Git\FleetManagementService\1. Presentation Layer\FleetManagementService
+build_property.MSBuildProjectDirectory = C:\Git\FleetManagementApp\FleetManagementService\1. Presentation Layer\FleetManagementService
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Containers/Create.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Containers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFpbmVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Containers/Delete.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Containers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFpbmVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Containers/Details.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Containers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFpbmVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Containers/Edit.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Containers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFpbmVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Containers/Index.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Containers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFpbmVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Fleets/Create.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Fleets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxlZXRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Fleets/Delete.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Fleets/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxlZXRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Fleets/Details.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Fleets/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxlZXRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Fleets/Edit.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Fleets/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxlZXRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Fleets/Index.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Fleets/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxlZXRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Home/Index.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Shared/Error.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Transfer/Index.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Transfer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNmZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Vessels/Create.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Vessels/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVzc2Vsc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Vessels/Delete.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Vessels/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVzc2Vsc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Vessels/Details.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Vessels/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVzc2Vsc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Vessels/Edit.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Vessels/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVzc2Vsc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Vessels/Index.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Vessels/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVzc2Vsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/_ViewImports.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/_ViewStart.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Git/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Shared/_Layout.cshtml]
+[C:/Git/FleetManagementApp/FleetManagementService/1. Presentation Layer/FleetManagementService/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9rudgs6rje

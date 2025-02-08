@@ -11,19 +11,6 @@ namespace FleetManagementServiceCore.Infrastructure.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Containers",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Containers", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Fleets",
                 columns: table => new
                 {
@@ -58,33 +45,28 @@ namespace FleetManagementServiceCore.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ContainersVessel",
+                name: "Containers",
                 columns: table => new
                 {
-                    ContainersId = table.Column<int>(type: "int", nullable: false),
-                    VesselsId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    VesselId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ContainersVessel", x => new { x.ContainersId, x.VesselsId });
+                    table.PrimaryKey("PK_Containers", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ContainersVessel_Containers_ContainersId",
-                        column: x => x.ContainersId,
-                        principalTable: "Containers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_ContainersVessel_Vessels_VesselsId",
-                        column: x => x.VesselsId,
+                        name: "FK_Containers_Vessels_VesselId",
+                        column: x => x.VesselId,
                         principalTable: "Vessels",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_ContainersVessel_VesselsId",
-                table: "ContainersVessel",
-                column: "VesselsId");
+                name: "IX_Containers_VesselId",
+                table: "Containers",
+                column: "VesselId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Vessels_FleetId",
@@ -95,9 +77,6 @@ namespace FleetManagementServiceCore.Infrastructure.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "ContainersVessel");
-
             migrationBuilder.DropTable(
                 name: "Containers");
 

@@ -19,4 +19,8 @@
     <ProjectReference Include="..\..\4. Business Layer\FleetManagementServiceCore.BusinessModels\FleetManagementServiceCore.BusinessModels.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

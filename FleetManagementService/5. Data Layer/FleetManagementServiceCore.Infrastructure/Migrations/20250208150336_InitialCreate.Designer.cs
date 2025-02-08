@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FleetManagementServiceCore.Infrastructure.Migrations
 {
     [DbContext(typeof(FleetManagementServiceCoreDbContext))]
-    [Migration("20250207104536_InitialCreate")]
+    [Migration("20250208150336_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -23,21 +23,6 @@ namespace FleetManagementServiceCore.Infrastructure.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("ContainersVessel", b =>
-                {
-                    b.Property<int>("ContainersId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("VesselsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ContainersId", "VesselsId");
-
-                    b.HasIndex("VesselsId");
-
-                    b.ToTable("ContainersVessel");
-                });
 
             modelBuilder.Entity("FleetManagementServiceCore.BusinessModels.Containers", b =>
                 {
@@ -51,7 +36,12 @@ namespace FleetManagementServiceCore.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("VesselId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("VesselId");
 
                     b.ToTable("Containers");
                 });
@@ -101,19 +91,13 @@ namespace FleetManagementServiceCore.Infrastructure.Migrations
                     b.ToTable("Vessels");
                 });
 
-            modelBuilder.Entity("ContainersVessel", b =>
+            modelBuilder.Entity("FleetManagementServiceCore.BusinessModels.Containers", b =>
                 {
-                    b.HasOne("FleetManagementServiceCore.BusinessModels.Containers", null)
-                        .WithMany()
-                        .HasForeignKey("ContainersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("FleetManagementServiceCore.BusinessModels.Vessel", "Vessel")
+                        .WithMany("Containers")
+                        .HasForeignKey("VesselId");
 
-                    b.HasOne("FleetManagementServiceCore.BusinessModels.Vessel", null)
-                        .WithMany()
-                        .HasForeignKey("VesselsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Vessel");
                 });
 
             modelBuilder.Entity("FleetManagementServiceCore.BusinessModels.Vessel", b =>
@@ -123,6 +107,11 @@ namespace FleetManagementServiceCore.Infrastructure.Migrations
                         .HasForeignKey("FleetId");
 
                     b.Navigation("Fleet");
+                });
+
+            modelBuilder.Entity("FleetManagementServiceCore.BusinessModels.Vessel", b =>
+                {
+                    b.Navigation("Containers");
                 });
 #pragma warning restore 612, 618
         }

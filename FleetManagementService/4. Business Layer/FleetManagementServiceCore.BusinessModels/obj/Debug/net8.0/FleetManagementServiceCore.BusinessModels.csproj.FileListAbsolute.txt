@@ -1,22 +1,12 @@
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.deps.json
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.dll
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.pdb
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.GeneratedMSBuildEditorConfig.editorconfig
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.AssemblyInfoInputs.cache
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.AssemblyInfo.cs
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.csproj.CoreCompileInputs.cache
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.dll
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\refint\FleetManagementServiceCore.BusinessModels.dll
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.pdb
-C:\Git\FleetManagementService\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\ref\FleetManagementServiceCore.BusinessModels.dll
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.deps.json
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.dll
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.pdb
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.GeneratedMSBuildEditorConfig.editorconfig
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.AssemblyInfoInputs.cache
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.AssemblyInfo.cs
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.csproj.CoreCompileInputs.cache
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.dll
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\refint\FleetManagementServiceCore.BusinessModels.dll
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.pdb
-C:\Git\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\ref\FleetManagementServiceCore.BusinessModels.dll
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.deps.json
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.dll
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.pdb
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.AssemblyInfoInputs.cache
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.AssemblyInfo.cs
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.csproj.CoreCompileInputs.cache
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.sourcelink.json
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.dll
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\refint\FleetManagementServiceCore.BusinessModels.dll
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\FleetManagementServiceCore.BusinessModels.pdb
+C:\Git\FleetManagementApp\FleetManagementService\4. Business Layer\FleetManagementServiceCore.BusinessModels\obj\Debug\net8.0\ref\FleetManagementServiceCore.BusinessModels.dll

@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FleetManagementServiceCore.Infrastructure
-build_property.ProjectDir = C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\
+build_property.ProjectDir = C:\Git\FleetManagementApp\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
