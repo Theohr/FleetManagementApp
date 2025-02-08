@@ -22,8 +22,8 @@
   1. Clone the repository to your preferred directory
   2. Open the solution in Visual Studio 2022
   3. Open Package Manager Console and in Default Project dropdown select 5. Data Layer\FleetManagementServiceCore.Infrastructure and run the below Commands
-       Add-Migration InitialCreate
-       Update-Database
+       * Add-Migration InitialCreate
+       * Update-Database
   4. Might need to change the Database Connection String in both files (see screenshot) to point at your Local DB for the app to run and execute functionality
        ![image](https://github.com/user-attachments/assets/fc2abc2f-fdaf-4938-896c-6e181984f004)
   6. Build the Solution
