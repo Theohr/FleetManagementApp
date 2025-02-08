@@ -1,0 +1,107 @@
+﻿@{
+    ViewData["Title"] = "Transfer Container";
+}
+
+<h2>Transfer Container</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form asp-action="TransferContainer" method="post" id="transferForm">
+    <div class="form-group">
+        <label for="sourceVesselId">Source Vessel</label>
+        <select class="form-control" id="sourceVesselId" name="sourceVesselId" required onchange="loadContainers()">
+            <option value="">Select Source Vessel</option>
+            @foreach (var vessel in ViewBag.Vessels)
+            {
+                <option value="@vessel.Id">@vessel.Name (Capacity: @vessel.Capacity, Current Load: @vessel.CurrentLoad)</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="destinationVesselId">Destination Vessel</label>
+        <select class="form-control" id="destinationVesselId" name="destinationVesselId" required>
+            <option value="">Select Destination Vessel</option>
+            @foreach (var vessel in ViewBag.Vessels)
+            {
+                <option value="@vessel.Id">@vessel.Name (Capacity: @vessel.Capacity, Current Load: @vessel.CurrentLoad)</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Containers</label>
+        <div id="containerCheckboxes"/>
+    </div>
+
+    <button type="submit" class="btn btn-primary" style="margin-top:25px;">Transfer Containers</button>
+</form>
+
+@section Scripts {
+    <script>
+        // loadContainers conditionally based on source vessel selection and add checkboxes so the user can select multiple and transfer at once
+        function loadContainers() {
+            const sourceVesselId = document.getElementById("sourceVesselId").value;
+            const containerCheckboxes = document.getElementById("containerCheckboxes");
+
+            // Clear existing checkboxes
+            containerCheckboxes.innerHTML = "";
+
+            if (sourceVesselId) {
+                // Fetch containers for the selected source vessel
+                fetch(`/Transfer/GetContainersByVesselId?vesselId=${sourceVesselId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.length > 0) {
+                            data.forEach(container => {
+                                const checkboxDiv = document.createElement("div");
+                                checkboxDiv.className = "form-check";
+
+                                const checkbox = document.createElement("input");
+                                checkbox.type = "checkbox";
+                                checkbox.name = "containerIds";
+                                checkbox.value = container.id;
+                                checkbox.className = "form-check-input";
+
+                                const label = document.createElement("label");
+                                label.className = "form-check-label";
+                                label.textContent = `${container.name} (Vessel: ${container.vesselName})`;
+
+                                checkboxDiv.appendChild(checkbox);
+                                checkboxDiv.appendChild(label);
+                                containerCheckboxes.appendChild(checkboxDiv);
+                            });
+                        } else {
+                            const noContainers = document.createElement("div");
+                            noContainers.textContent = "No containers found for this vessel.";
+                            containerCheckboxes.appendChild(noContainers);
+                        }
+                    })
+                    .catch(error => console.error("Error fetching containers:", error));
+            }
+        }
+
+        // Handle form submission to include selected container IDs
+        document.getElementById("transferForm").addEventListener("submit", function (event) {
+            const selectedContainers = Array.from(document.querySelectorAll('input[name="containerIds"]:checked'))
+                .map(checkbox => checkbox.value);
+
+            // Add hidden input fields for selected container IDs
+            selectedContainers.forEach(containerId => {
+                const hiddenInput = document.createElement("input");
+                hiddenInput.type = "hidden";
+                hiddenInput.name = "containerIds";
+                hiddenInput.value = containerId;
+                this.appendChild(hiddenInput);
+            });
+        });
+    </script>
+}

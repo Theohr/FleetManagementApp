@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FleetManagementService</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FleetManagementService.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/font-awesome/css/all.css" asp-append-version="true" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1" style="text-align:center;">
+                        <li class="nav-item" style="margin-left:auto; margin-right:20px;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-left:20px; margin-right:20px;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Vessels" asp-action="Index">
+                                <i class="fa-solid fa-ship"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-left:20px; margin-right:20px;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Containers" asp-action="Index">
+                                <i class="fa-solid fa-box"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-left:20px; margin-right:20px;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Fleets" asp-action="Index">
+                                <i class="fa-solid fa-group-arrows-rotate"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item" style="margin-left:20px; margin-right:auto;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Transfer" asp-action="Index">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted" style="position:absolute; bottom: 0px;
+          bottom: 0;
+          width: 100%;
+          white-space: nowrap;
+          line-height: 60px; ">
+        <div class="container">
+            &copy; 2025 - Fleet Management
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

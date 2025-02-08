@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Fleet Management</h1>
+
+    <div class="container">
+        <div class="row" id="top"> 
+            <div class="col-md-6">
+                <div class="bg-light border p-3 text-center">                            
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Vessels" asp-action="Index">
+                        <i class="fa-solid fa-ship"></i> Vessels
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bg-light border p-3 text-center">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Transfer" asp-action="Index"> <i class="fa-solid fa-right-left"></i> Transfer Containers</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row" id="bottom">
+            <div class="col-md-6">
+                <div class="bg-light border p-3 text-center">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Containers" asp-action="Index"> <i class="fa-solid fa-box"></i> Containers</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bg-light border p-3 text-center">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Fleets" asp-action="Index"> <i class="fa-solid fa-group-arrows-rotate"></i> Fleet</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    #top {
+      margin: 20px;   
+    }
+
+    #bottom {
+      margin: 20px;
+    }
+</style>

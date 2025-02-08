@@ -1,0 +1,34 @@
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.Infrastructure.deps.json
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.Infrastructure.runtimeconfig.json
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.Infrastructure.dll
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.Infrastructure.pdb
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.dll
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.pdb
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.csproj.AssemblyReference.cache
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.AssemblyInfoInputs.cache
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.AssemblyInfo.cs
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetMan.981351FD.Up2Date
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.dll
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\refint\FleetManagementServiceCore.Infrastructure.dll
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.pdb
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.genruntimeconfig.cache
+C:\Git\FleetManagementService\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\ref\FleetManagementServiceCore.Infrastructure.dll
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.Infrastructure.deps.json
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.Infrastructure.runtimeconfig.json
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.Infrastructure.dll
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.Infrastructure.pdb
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.dll
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\bin\Debug\net8.0\FleetManagementServiceCore.BusinessModels.pdb
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.csproj.AssemblyReference.cache
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.AssemblyInfoInputs.cache
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.AssemblyInfo.cs
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetMan.981351FD.Up2Date
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.dll
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\refint\FleetManagementServiceCore.Infrastructure.dll
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.pdb
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\FleetManagementServiceCore.Infrastructure.genruntimeconfig.cache
+C:\Git\FleetManagementService\5. Data Layer\FleetManagementServiceCore.Infrastructure\obj\Debug\net8.0\ref\FleetManagementServiceCore.Infrastructure.dll
