@@ -26,9 +26,9 @@
        * Update-Database
   4. Might need to change the Database Connection String in both files (see screenshot) to point at your Local DB for the app to run and execute functionality
        ![image](https://github.com/user-attachments/assets/fc2abc2f-fdaf-4938-896c-6e181984f004)
-  6. Build the Solution
-  7. Set as default the project 1. Presentation Layer\FleetManagementServiceCore
-  8. Run the project
+  5. Build the Solution
+  6. Set as default the project 1. Presentation Layer\FleetManagementServiceCore
+  7. Run the project
 
 ## Short video tutorial of the App
   https://www.youtube.com/watch?v=a81sxuBZrVA
