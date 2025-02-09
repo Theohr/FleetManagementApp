@@ -36,7 +36,7 @@
 ## Folder Structure 
   ### 1. Presentation Layer
   #### FleetManagementServiceCore
-    - Consists of FleetManagementServiceCore project where the User can interact with the App.
+    Consists of the main project where the User can interact and execute functionality.
   ### 2. Hosting Layer
   ### 3. Service Layer
   #### FleetManagementServiceCore.Service
