@@ -30,7 +30,7 @@
   6. Set as default the project 1. Presentation Layer\FleetManagementServiceCore
   7. Run the project
 
-## Short video tutorial of the App
+## Short video tutorial of the App's functionality
   https://www.youtube.com/watch?v=a81sxuBZrVA
 
 ## Folder Structure 
