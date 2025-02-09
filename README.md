@@ -6,7 +6,7 @@
   * FontAwesome
 
 ## Requirements to Run
-  * .NET 8.0 Framework
+  * .NET 8.0
   * Visual Studio 2022
   * SQL Server (Local DB)
 
